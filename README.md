@@ -17,6 +17,12 @@ For commercial use, please consult [NVIDIA Research Inquiries](https://www.nvidi
 
 We have a tutorial for each model. Click on the model name, and your browser should take you to the tutorial page for the project.
 
+### Testing repo
+```
+pip install --upgrade pip setuptools wheel
+pip install --upgrade -r scripts/requirements.txt
+```
+
 ### Supervised Image-to-Image Translation
 
 |Algorithm Name                               | Feature                                                                                                         | Publication                                                   |
