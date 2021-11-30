@@ -1,5 +1,7 @@
 projects/*/test_data*
 projects/*/output
+projects/wc_vid2vid/cityscapes/
+projects/wc_vid2vid/mannequin/
 
 checkpoints/
 .idea/
