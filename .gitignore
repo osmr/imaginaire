@@ -1,3 +1,6 @@
+projects/*/test_data*
+projects/*/output
+
 checkpoints/
 .idea/
 logs/

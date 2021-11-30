@@ -8,3 +8,9 @@ for p in correlation channelnorm resample2d bias_act upfirdn2d; do
   python setup.py install;
   cd ${CURRENT};
 done
+
+for p in gancraft/voxlib; do
+  cd imaginaire/model_utils/${p};
+  make all
+  cd ${CURRENT};
+done
