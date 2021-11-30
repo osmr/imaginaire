@@ -21,6 +21,9 @@ We have a tutorial for each model. Click on the model name, and your browser sho
 ```
 pip install --upgrade pip setuptools wheel
 pip install --upgrade -r scripts/requirements.txt
+pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+bash scripts/install1.sh
+bash scripts/test_training1.sh
 ```
 
 ### Supervised Image-to-Image Translation
